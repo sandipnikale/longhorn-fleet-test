@@ -5,7 +5,8 @@ targetCustomizations:
      - template
   clusterName: alpha
   
-defaultNamespace: longhorn-system
+  
+namespace: longhorn-system
 helm:
   releaseName: longhorn
   chart: longhorn
