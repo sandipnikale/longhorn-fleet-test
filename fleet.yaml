@@ -7,7 +7,6 @@ helm:
   
 targetCustomizations:
 - name: prod
-  defaultNamespace: default
   yaml:
     overlays:
     - template
