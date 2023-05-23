@@ -6,7 +6,7 @@ targetCustomizations:
   clusterName: alpha
   
   
-namespace: longhorn-system
+
 helm:
   releaseName: longhorn
   chart: longhorn
