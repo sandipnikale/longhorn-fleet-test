@@ -4,7 +4,9 @@ helm:
   chart: longhorn
   repo: https://charts.longhorn.io
   version: 1.2.5
-
+---
+defaultNamespace: default
 yaml:
    overlays:
    - template
+     
