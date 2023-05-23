@@ -5,12 +5,6 @@ targetCustomizations:
      - template
   clusterName: alpha
   
-defaultNamespace: longhorn-system
-helm:
-  releaseName: longhorn
-  chart: longhorn
-  repo: https://charts.longhorn.io
-  version: 1.2.5
-  
+
 
      
