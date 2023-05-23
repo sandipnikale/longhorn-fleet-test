@@ -1,3 +1,10 @@
+targetCustomizations:
+- name: prod
+  yaml:
+    overlays:
+     - template
+  clusterName: alpha
+  
 defaultNamespace: longhorn-system
 helm:
   releaseName: longhorn
@@ -5,10 +12,5 @@ helm:
   repo: https://charts.longhorn.io
   version: 1.2.5
   
-targetCustomizations:
-- name: prod
-  yaml:
-    overlays:
-    - template
-  clusterName: alpha
+
      
